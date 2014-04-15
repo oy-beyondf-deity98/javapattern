@@ -1,0 +1,22 @@
+package pattern.recursive.decorator;
+
+/**
+ * Created with IntelliJ IDEA.
+ * User: kimgyupyo
+ * Date: 2014. 4. 9.
+ * Time: 오전 2:00
+ * To change this template use File | Settings | File Templates.
+ */
+public abstract class Display {
+    public abstract int getColumns();
+
+    public abstract int getRows();
+
+    public abstract String getRowText(int row);
+
+    public void show() {
+        for (int i = 0; i < getRows(); i++) {
+            System.out.println(getRowText(i));
+        }
+    }
+}
