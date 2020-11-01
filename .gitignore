@@ -35,3 +35,6 @@ nbproject
 .CVS
 .idea
 bin
+
+# idle
+JavaPattern.iml
