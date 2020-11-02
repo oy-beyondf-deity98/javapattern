@@ -1,6 +1,8 @@
-package pattern.instance.abstractFactory.factory;
+package pattern.instance.abstractFactory;
 
-import pattern.instance.abstractFactory.Main;
+import pattern.instance.abstractFactory.factory.Link;
+import pattern.instance.abstractFactory.factory.Page;
+import pattern.instance.abstractFactory.factory.Tray;
 
 /**
  * Created with IntelliJ IDEA.

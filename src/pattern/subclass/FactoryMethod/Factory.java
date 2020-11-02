@@ -7,7 +7,7 @@ package pattern.subclass.FactoryMethod;
  * Time: 오전 9:13
  * To change this template use File | Settings | File Templates.
  */
-public abstract class Factory {
+public abstract class Factory extends Main {
     public final Product create(String owner){
         Product p = createProduct(owner);
         registerProduct(p);

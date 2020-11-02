@@ -1,6 +1,5 @@
 package pattern.instance.abstractFactory;
 
-import pattern.instance.abstractFactory.factory.Factory;
 import pattern.instance.abstractFactory.factory.Link;
 import pattern.instance.abstractFactory.factory.Page;
 import pattern.instance.abstractFactory.factory.Tray;
