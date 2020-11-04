@@ -7,7 +7,7 @@ package pattern.integration.facade;
  * Time: 오전 3:05
  * To change this template use File | Settings | File Templates.
  */
-public class Main extends PageMaker {
+public class Main {
     public static void main(String[] args) {
         PageMaker.makeWelcomePage("deity@i-on.net","welcome.html");
     }

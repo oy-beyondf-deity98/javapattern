@@ -11,7 +11,7 @@ import java.util.Properties;
  * Time: 오전 3:06
  * To change this template use File | Settings | File Templates.
  */
-public class Database extends PageMaker {
+public class Database {
     private Database() {
     }
 
